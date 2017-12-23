@@ -25,7 +25,6 @@ $text: $black;
 
 @import "~bulma/bulma.sass";
 @import "~bulma-timeline/timeline.sass";
-// @import "~bulma/sass/utilities/derived-variables.sass";
 @import "~font-awesome/css/font-awesome.min.css";
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
