@@ -2,7 +2,7 @@
   <div class="cv">
     <XpModal v-model="isModalOpen" :experience="selectedExperience" />
     <nav-bar></nav-bar>
-    <div class="tile is-ancestor">
+    <div class="tile is-ancestor is-desktop">
       <div class="tile is-vertical is-parent">
         
         <div class="tile is-parent">
@@ -12,13 +12,13 @@
           </div>
         </div>
 
-        <div class="tile">
-          <div class="tile is-parent is-4">
-            <div class="tile is-child box timeline">
+        <div class="tile main-columns">
+          <div class="tile is-parent timeline">
+            <div class="tile is-child box timeline__box">
               <Timeline @xpClicked="openXpModal"/>
             </div>
           </div>
-          <div class="tile is-vertical is-8">
+          <div class="tile is-vertical skill-column">
             <div class="tile is-parent">
               <div class="tile is-child box skills">
                 <Skills/>
@@ -90,10 +90,19 @@ export default {
     }
   }
 }
+.main-columns {
+  flex-flow: row wrap;
+  .timeline {
+    flex: 1 0 420px;
+  }
+  .skill-column {
+    flex: 2 0 780px;
+  }
+}
 .tile.is-ancestor {
   margin-top: 0px;
-  .timeline.tile.box {
-    flex-shrink: 0;
+  .timeline__box.tile.box {
+    // flex-shrink: 0;
     // border: 2px solid #adf;
     padding-left: 0px;
     padding-right: 0px;
