@@ -1,0 +1,148 @@
+{
+  "professionnalExperiences": "Professionnals experience",
+  "formation": "Education",
+  "skills": "Skills",
+  "hobbies": "Hobbies",
+  "switchLanguage": {
+    "name": "Français",
+    "locale": "fr"
+  },
+  "experiences": [
+      {
+          "type": "company",
+          "val": "SOLUTEC - Consultant"
+      },
+      {
+          "type": "xp",
+          "date": "august 2017 - today",
+          "location": "Lyon - FRANCE",
+          "company": "ocea smart building",
+          "role": "Developper Front-End VueJS"
+      },
+      {
+          "type": "xp",
+          "date": "january - july 2017",
+          "location": "Lyon - FRANCE",
+          "company": "engie",
+          "role": "Web Developer: Front-End VueJS"
+      },
+      {
+          "type": "year",
+          "val": "2016"
+      },
+      {
+          "type": "xp",
+          "date": "october- december 2017",
+          "location": "Lyon - FRANCE",
+          "company": "enedis",
+          "role": "Web Developer Full Stack: PHP with Symfony 2 and AngularJs"
+      },
+      {
+          "type": "company",
+          "val": "Internships"
+      },
+      {
+          "type": "xp",
+          "date": "october - december 2017",
+          "company": "solutec",
+          "location": "Lyon - FRANCE",
+          "role": "Web Developer Full Stack: PHP used with Symfony 2 and AngularJs"
+      },
+      {
+          "type": "year",
+          "val": "2015"
+      },
+      {
+          "type": "xp",
+          "date": "april - july 2015",
+          "company": "Amaris",
+          "location": "Vienna - AUSTRIA",
+          "role": "Web Developer .NET MVC"
+      }
+  ],
+  "skillList": [
+      {
+          "groupName": "Main skills",
+          "skills": [
+              {
+                  "name": "Front-End Web Development",
+                  "value": "4",
+                  "tags": ["HTML 5", "CSS3", "Javascript ES6", "VueJs", "AngularJs", "JQuery"]
+              },
+              {
+                  "name": "Back-End Web Development",
+                  "value": "3",
+                  "tags": ["PHP", "Symfony", "C#", ".NET MVC", "NodeJs"]
+              },
+              {
+                  "name": "Electronics",
+                  "tags": ["Traitement du signal", "VHDL", "Arduino", "Assembleur"]
+              },
+              {
+                  "name": "Languages",
+                  "tags": ["French", "English"]
+              }
+          ]
+      },
+      {
+          "groupName": "Programming languages",
+          "skills": [
+              {
+                  "name": "HTML",
+                  "value": 5
+              },
+              {
+                  "name": "JavaScript",
+                  "value": 4.5
+              },
+              {
+                  "name": "CSS - Sass",
+                  "value": 4.5
+              },
+              {
+                  "name": "PHP",
+                  "value": 4
+              }
+          ]
+      },
+      {
+          "groupName": "Frameworks",
+          "skills": [
+              {
+                  "name": "VueJs",
+                  "value": 4
+              },
+              {
+                  "name": "AngularJs",
+                  "value": 4
+              },
+              {
+                  "name": "jQuery",
+                  "value": "3.5"
+              },
+              {
+                  "name": "Symfony",
+                  "value": 3.5
+              },
+              {
+                  "name": ".NET MVC",
+                  "value": 3
+              }
+          ]
+      },
+      {
+          "groupName": "Languages",
+          "skills": [
+              {
+                  "name": "French",
+                  "value": 5
+              },
+              {
+                  "name": "English",
+                  "value": 4,
+                  "tags": ["Toeic: 800", "IELTS: 6.5"]
+              }
+          ]
+      } 
+  ]
+}

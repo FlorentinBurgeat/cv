@@ -1,0 +1,205 @@
+{
+    "professionnalExperiences": "Expériences professionnelles",
+    "studentProjects": "Projets étudiant",
+    "formation": "Formation",
+    "lycee": "Lycée",
+    "endOfStudies": "Fin des études",
+    "diplomas": "Diplômes",
+    "skills": "Compétences",
+    "hobbies": "Centre d'intérêts",
+    "switchLanguage": {
+        "name": "English",
+        "locale": "en"
+      },
+    "experiences": [
+        {
+            "type": "company",
+            "val": "SOLUTEC - Consultant"
+        },
+        {
+            "type": "xp",
+            "date": "aôut 2017 - aujourd'hui",
+            "location": "Lyon - FRANCE",
+            "company": "ocea smart building",
+            "role": "Développeur Front-End VueJS",
+            "description": "<h1 class='title'> Test </h1><p>Coucou ca va?</p>"
+        },
+        {
+            "type": "xp",
+            "date": "janvier - juillet 2017",
+            "location": "Lyon - FRANCE",
+            "company": "engie",
+            "role": "Développeur Front-End VueJS"
+        },
+        {
+            "type": "year",
+            "val": "2016"
+        },
+        {
+            "type": "xp",
+            "date": "octobre- décembre 2017",
+            "location": "Lyon - FRANCE",
+            "company": "enedis",
+            "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs"
+        },
+        {
+            "type": "company",
+            "val": "Stages"
+        },
+        {
+            "type": "xp",
+            "date": "octobre - décembre 2017",
+            "company": "solutec",
+            "location": "Lyon - FRANCE",
+            "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs"
+        },
+        {
+            "type": "year",
+            "val": "2015"
+        },
+        {
+            "type": "xp",
+            "date": "avril - juillet 2015",
+            "company": "Amaris",
+            "location": "Vienne - AUTRICHE",
+            "role": "Développeur .NET MVC"
+        }
+    ],
+    "projects": [
+        {
+            "type": "xp",
+            "date": "Automne 2015",
+            "location": "Polytechnique Montréal - CANADA",
+            "company": "Projet de réalité virtuelle",
+            "role": "Réalisation d'une escape room en VR dans un environnement CAVE",
+            "description": "<h1 class='title'> Test </h1><p>Coucou ca va?</p>"
+        },
+        {
+            "type": "xp",
+            "date": "2014 - 2015",
+            "location": "ECE Paris - FRANCE",
+            "company": "Projet de réalité virtuelle",
+            "role": "Réalisation d'un prototype de tapis de course couplé à un Oculus RIFT",
+            "description": "<h1 class='title'> Test </h1><p>Coucou ca va?</p>"
+        }
+    ],
+    "formations": [
+        {
+            "dates": "Septembre - Décembre 2013",
+            "school": "Concordia University",
+            "location": "Montréal - CANADA",
+            "description": "Premier semestre d'échange dans l'université anglophone Concordia"
+        },
+        {
+            "dates": "Septembre - Décembre 2015",
+            "school": "Polytechnique",
+            "location": "Montréal - CANADA",
+            "description": "Second semestre d'échange à Montréal"
+        },
+        {
+            "dates": "2011 - 2016",
+            "school": "Ecole Centrale d'Electronique",
+            "location": "Paris - FRANCE",
+            "description": "Cursus d'études en école d'ingénieur. Majeure Systèmes Embarqués"
+        }
+    ],
+    "diplomasList": [
+        {
+            "title": "Ingénieur en Systèmes Embarqués",
+            "icon": "fa-graduation-cap"
+        },
+        {
+            "title": "Permis de conduire B",
+            "icon": "fa-car"
+        },
+        {
+            "title": "Baccalauréat S",
+            "icon": "fa-university"
+        }
+    ],
+    "skillList": [
+        {
+            "groupName": "Principales",
+            "skills": [
+                {
+                    "name": "Programmation Web Front-End",
+                    "value": "4",
+                    "tags": ["HTML 5", "CSS3", "Javascript ES6", "VueJs", "AngularJs", "JQuery"]
+                },
+                {
+                    "name": "Programmation Web Back-End",
+                    "value": "3",
+                    "tags": ["PHP", "Symfony", "C#", ".NET MVC", "NodeJs"]
+                },
+                {
+                    "name": "Electronique",
+                    "tags": ["Traitement du signal", "VHDL", "Arduino", "Assembleur"]
+                },
+                {
+                    "name": "Langues",
+                    "tags": ["Français", "Anglais"]
+                }
+            ]
+        },
+        {
+            "groupName": "Langages de programmation",
+            "skills": [
+                {
+                    "name": "HTML",
+                    "value": 5
+                },
+                {
+                    "name": "JavaScript",
+                    "value": 4.5
+                },
+                {
+                    "name": "CSS - Sass",
+                    "value": 4.5
+                },
+                {
+                    "name": "PHP",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "groupName": "Frameworks",
+            "skills": [
+                {
+                    "name": "VueJs",
+                    "value": 4
+                },
+                {
+                    "name": "AngularJs",
+                    "value": 4
+                },
+                {
+                    "name": "jQuery",
+                    "value": "3.5"
+                },
+                {
+                    "name": "Symfony",
+                    "value": 3.5
+                },
+                {
+                    "name": ".NET MVC",
+                    "value": 3
+                }
+            ]
+        },
+        {
+            "groupName": "Langues",
+            "skills": [
+                {
+                    "name": "Français",
+                    "value": 5
+                },
+                {
+                    "name": "Anglais",
+                    "value": 4,
+                    "tags": ["Toeic: 800", "IELTS: 6.5"]
+                }
+            ]
+        } 
+    ]
+}
