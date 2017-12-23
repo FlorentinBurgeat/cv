@@ -66,7 +66,7 @@ export default {
   },
   data () {
     return {
-      selectedExperience: null,
+      selectedExperience: {},
       isModalOpen: false
     }
   },

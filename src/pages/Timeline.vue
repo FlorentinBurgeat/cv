@@ -12,7 +12,7 @@
       <div v-else-if="xp.type === 'company'" :key="index" class="timeline-header">
         <span class="tag is-medium is-info">{{xp.val}}</span>
       </div>
-      <li v-else :key="index" class="timeline-item is-primary clickable" @click="$emit('xpClicked', xp)">
+      <li v-else :key="'xp' + index" class="timeline-item is-primary clickable" @click="$emit('xpClicked', xp)">
         <div class="timeline-marker is-primary"></div>
         <div class="timeline-content">
           <p class="heading company is-size-6">{{xp.company}} - {{xp.location}}</p>
@@ -24,7 +24,7 @@
     <li class="timeline-header" >
       <span class="tag is-large is-primary">{{$t('studentProjects')}}</span>
     </li>
-    <li v-for="(xp, index) in $t('projects')" :key="index" class="timeline-item is-primary clickable" @click="$emit('xpClicked', xp)">
+    <li v-for="(xp, index) in $t('projects')" :key="'project' + index" class="timeline-item is-primary clickable" @click="$emit('xpClicked', xp)">
       <div class="timeline-marker is-primary"></div>
       <div class="timeline-content">
         <p class="heading company is-size-6">{{xp.company}} - {{xp.location}}</p>
