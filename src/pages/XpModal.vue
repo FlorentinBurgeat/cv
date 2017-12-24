@@ -10,6 +10,12 @@
         <button class="delete" @click="$emit('input', false)" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
+        <template v-if="experience.tags">
+          <p class="tags">
+            <span class="tag is-warning is-medium" v-for="(tag, tagId) in experience.tags" :key="tagId">{{tag}}</span>
+          </p>
+          <div class="is-divider"></div>
+          </template>
         <div v-html="experience.description"></div>
       </section>
       <!-- <footer class="modal-card-foot">
