@@ -37,9 +37,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .modal-card{
-    width: 60vw;
+.modal-card {
+  @media(min-width: 1024px) {
+    width: 960px;
   }
+}
  .modal-card-title {
    flex-shrink: 1;
  }
