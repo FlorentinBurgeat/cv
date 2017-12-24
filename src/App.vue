@@ -3,12 +3,12 @@
     <router-view/>
   </div>
 </template>
-
 <script>
 export default {
   name: 'app'
 }
 </script>
+
 
 <style lang="scss">
 @import "~bulma/sass/utilities/initial-variables.sass";

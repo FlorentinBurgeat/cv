@@ -22,14 +22,17 @@
             "location": "Lyon - FRANCE",
             "company": "ocea smart building",
             "role": "Développeur Front-End VueJS",
-            "description": "<h1 class='title'> Test </h1><p>Coucou ca va?</p>"
+            "tags": ["Javascript ES6", "VueJs", "Bulma", "UX/UI", "Webpack", "HTML", "CSS"],
+            "description": "Développeur Front-End dans une équipe de quatre personnes. Participation à la création d'outils de gestion interne de l'entreprise dans une optique de refonte complète du SI Interne."
         },
         {
             "type": "xp",
             "date": "janvier - juillet 2017",
             "location": "Lyon - FRANCE",
             "company": "engie",
-            "role": "Développeur Front-End VueJS"
+            "role": "Développeur Front-End VueJS",
+            "tags": ["JavaScript ES6", "VueJS", "Git", "Salesforce", "Atom"],
+            "description": "Participation à la création du nouvel espace client d’Engie pour les professionnels. Développement front-end de différentes pages et modules du site dans une équipe de neuf personnes réparties sur différents rôles."
         },
         {
             "type": "year",
@@ -40,7 +43,9 @@
             "date": "octobre- décembre 2017",
             "location": "Lyon - FRANCE",
             "company": "enedis",
-            "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs"
+            "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs",
+            "tags": ["JavaScript ES5", "AngularJs", "PHP", "Symfony 2", "SQL", "PostGreSQL", "Git"],
+            "description": "Réalisation d’un Portail Web réunissant un outil de monitoring et un module de E-Learning. L’outil de monitoring interprète des fichiers de configuration pour constituer des tableaux regroupant de nombreux graphiques donnant des rapports d’activités sur les applications développées. Le module E-Learning permet de suivre des cours et d’effectuer des tests pour valider ses connaissances."
         },
         {
             "type": "company",
@@ -51,7 +56,9 @@
             "date": "octobre - décembre 2017",
             "company": "solutec",
             "location": "Lyon - FRANCE",
-            "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs"
+            "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs",
+            "tags": ["JavaScript ES5", "AngularJs", "PHP", "Symfony 2", "SQL", "PostGreSQL", "Git"],
+            "description": "Réalisation d’un Portail Web réunissant un outil de monitoring et un module de E-Learning. L’outil de monitoring interprète des fichiers de configuration pour constituer des tableaux regroupant de nombreux graphiques donnant des rapports d’activités sur les applications développées. Le module E-Learning permet de suivre des cours et d’effectuer des tests pour valider ses connaissances."                    
         },
         {
             "type": "year",
@@ -62,7 +69,9 @@
             "date": "avril - juillet 2015",
             "company": "Amaris",
             "location": "Vienne - AUTRICHE",
-            "role": "Développeur .NET MVC"
+            "role": "Développeur .NET MVC",
+            "tags": ["C#", "ASP.NET MVC", "Entity Framework", "Visual Studio", "TFS (VSTS)", "Bootstrap", "jQuery"],
+            "description": "Au sein de la DSI d’Amaris située à Vienne, en Autriche, implémentation de nouvelles fonctionnalités pour l’ERP de l’entreprise (site entièrement conçu par l’entreprise en .NET)."
         }
     ],
     "projects": [
@@ -72,7 +81,8 @@
             "location": "Polytechnique Montréal - CANADA",
             "company": "Projet de réalité virtuelle",
             "role": "Réalisation d'une escape room en VR dans un environnement CAVE",
-            "description": "<h1 class='title'> Test </h1><p>Coucou ca va?</p>"
+            "tags": ["C#","Unity 3D", "Arduino", "Processing", "Open Sound Control", "Oculus SDK"],
+            "description": "En équipe de 5 personnes, création d’un système de réalité virtuelle composé d’un Oculus Rift et d’un tapis de course. Le joueur met le casque sur sa tête et évolue dans un environnement virtuel en courant sur le tapis de course. La vitesse du coureur est reproduite dans le jeu, et les pentes de l’environnement virtuel influencent l’inclinaison du tapis automatiquement."
         },
         {
             "type": "xp",
@@ -80,21 +90,22 @@
             "location": "ECE Paris - FRANCE",
             "company": "Projet de réalité virtuelle",
             "role": "Réalisation d'un prototype de tapis de course couplé à un Oculus RIFT",
-            "description": "<h1 class='title'> Test </h1><p>Coucou ca va?</p>"
+            "tags": ["C++", "Open Scene Graph", "VR Juggler", "Google Sketch Up"],
+            "description": "Réalisation d’un jeu de type Escape Room en réalité virtuelle dans un environnement immersif de type CAVE (Projection sur 4 murs du jeu en 3D), dans le cadre du cours sur la Réalité virtuelle et augmentée suivi à Polytechnique Montréal."
         }
     ],
     "formations": [
-        {
-            "dates": "Septembre - Décembre 2013",
-            "school": "Concordia University",
-            "location": "Montréal - CANADA",
-            "description": "Premier semestre d'échange dans l'université anglophone Concordia"
-        },
         {
             "dates": "Septembre - Décembre 2015",
             "school": "Polytechnique",
             "location": "Montréal - CANADA",
             "description": "Second semestre d'échange à Montréal"
+        },
+        {
+            "dates": "Septembre - Décembre 2013",
+            "school": "Concordia University",
+            "location": "Montréal - CANADA",
+            "description": "Premier semestre d'échange dans l'université anglophone Concordia"
         },
         {
             "dates": "2011 - 2016",
