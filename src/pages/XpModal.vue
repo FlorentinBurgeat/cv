@@ -3,11 +3,10 @@
     <div class="modal-background" @click="$emit('input', false)"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">
-          <span class="title-block">{{experience.role}}</span>
-          <span class="title-separator">-</span>
-          <span class="is-uppercase title-block">{{experience.company}}</span>
-        </p>
+        <div class="modal-card-title">
+          <h1 class="title is-uppercase">{{experience.company}}</h1>
+          <h2 class="subtitle">{{experience.role}}</h2>
+        </div>
         <button class="delete" @click="$emit('input', false)" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
