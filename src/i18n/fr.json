@@ -53,7 +53,7 @@
         },
         {
             "type": "xp",
-            "date": "octobre - décembre 2017",
+            "date": "mars - septembre 2017",
             "company": "solutec",
             "location": "Lyon - FRANCE",
             "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs",
@@ -82,7 +82,7 @@
             "company": "Projet de réalité virtuelle",
             "role": "Réalisation d'une escape room en VR dans un environnement CAVE",
             "tags": ["C#","Unity 3D", "Arduino", "Processing", "Open Sound Control", "Oculus SDK"],
-            "description": "En équipe de 5 personnes, création d’un système de réalité virtuelle composé d’un Oculus Rift et d’un tapis de course. Le joueur met le casque sur sa tête et évolue dans un environnement virtuel en courant sur le tapis de course. La vitesse du coureur est reproduite dans le jeu, et les pentes de l’environnement virtuel influencent l’inclinaison du tapis automatiquement."
+            "description": "Réalisation d’un jeu de type Escape Room en réalité virtuelle dans un environnement immersif de type CAVE (Projection sur 4 murs du jeu en 3D), dans le cadre du cours sur la Réalité virtuelle et augmentée suivi à Polytechnique Montréal."
         },
         {
             "type": "xp",
@@ -91,7 +91,7 @@
             "company": "Projet de réalité virtuelle",
             "role": "Réalisation d'un prototype de tapis de course couplé à un Oculus RIFT",
             "tags": ["C++", "Open Scene Graph", "VR Juggler", "Google Sketch Up"],
-            "description": "Réalisation d’un jeu de type Escape Room en réalité virtuelle dans un environnement immersif de type CAVE (Projection sur 4 murs du jeu en 3D), dans le cadre du cours sur la Réalité virtuelle et augmentée suivi à Polytechnique Montréal."
+            "description": "En équipe de 5 personnes, création d’un système de réalité virtuelle composé d’un Oculus Rift et d’un tapis de course. Le joueur met le casque sur sa tête et évolue dans un environnement virtuel en courant sur le tapis de course. La vitesse du coureur est reproduite dans le jeu, et les pentes de l’environnement virtuel influencent l’inclinaison du tapis automatiquement.<br/>Le projet fut présenté lors du salon Laval Virtual qui eu lieu en Avril 2015 à l'occasion du concours éponyme."
         }
     ],
     "formations": [

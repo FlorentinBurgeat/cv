@@ -1,15 +1,15 @@
 {
-    "professionnalExperiences": "Expériences professionnelles",
-    "studentProjects": "Projets étudiant",
-    "formation": "Formation",
-    "lycee": "Lycée",
-    "endOfStudies": "Fin des études",
-    "diplomas": "Diplômes",
-    "skills": "Compétences",
-    "hobbies": "Centre d'intérêts",
+    "professionnalExperiences": "Work Experience",
+    "studentProjects": "Student Projects",
+    "formation": "Education",
+    "lycee": "High School",
+    "endOfStudies": "End of studies",
+    "diplomas": "Diplomas",
+    "skills": "Skills",
+    "hobbies": "Hobbies",
     "switchLanguage": {
-        "name": "English",
-        "locale": "en"
+        "name": "Français",
+        "locale": "fr"
       },
     "experiences": [
         {
@@ -18,18 +18,21 @@
         },
         {
             "type": "xp",
-            "date": "aôut 2017 - aujourd'hui",
+            "date": "August 2017 - Today",
             "location": "Lyon - FRANCE",
             "company": "ocea smart building",
-            "role": "Développeur Front-End VueJS",
-            "description": "<h1 class='title'> Test </h1><p>Coucou ca va?</p>"
+            "role": "Front-End VueJS Programmer",
+            "tags": ["Javascript ES6", "VueJs", "Bulma", "UX/UI", "Webpack", "HTML", "CSS"],
+            "description": "Front-End programmer in a four person team. I worked on the creation of intern management tools of the companyin order to make a complete overhaul of the company's Information system."
         },
         {
             "type": "xp",
-            "date": "janvier - juillet 2017",
+            "date": "january - july 2017",
             "location": "Lyon - FRANCE",
             "company": "engie",
-            "role": "Développeur Front-End VueJS"
+            "role": "Front-End VueJS Developer",
+            "tags": ["JavaScript ES6", "VueJS", "Git", "Salesforce", "Atom"],
+            "description": "Front-End developer in a ten people team working on different technical parts of the project.<br/>I worked on the creation of the new Engie customer Area for the professionnals. Front-end programming of different pages and modules of the website."
         },
         {
             "type": "year",
@@ -37,10 +40,12 @@
         },
         {
             "type": "xp",
-            "date": "octobre- décembre 2017",
+            "date": "october- december 2017",
             "location": "Lyon - FRANCE",
             "company": "enedis",
-            "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs"
+            "role": "Full Stack programmer using Symfony 2 and AngularJs",
+            "tags": ["JavaScript ES5", "AngularJs", "PHP", "Symfony 2", "SQL", "PostGreSQL", "Git"],
+            "description": "During those three months I worked on finishing my internship project. The main goal was to put the first module of the website in production, and progress on the e-learning module development.<br/>(See next experience for more information on the project)"
         },
         {
             "type": "company",
@@ -48,10 +53,12 @@
         },
         {
             "type": "xp",
-            "date": "octobre - décembre 2017",
+            "date": "october - december 2017",
             "company": "solutec",
             "location": "Lyon - FRANCE",
-            "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs"
+            "role": "Full Stack programmer using Symfony 2 and AngularJs",
+            "tags": ["JavaScript ES5", "AngularJs", "PHP", "Symfony 2", "SQL", "PostGreSQL", "Git"],
+            "description": "The goal of this internship project was to create a web portal, comprised of a monitoring tool and an e-learning tool.<br/>The monitoring tool transforms configuration files into tables gathering multiples graphs in order to show activity reports on the work in progress in the company.<br/>The E-Learning Module allows the user to follow lessons or tutorials and answer some tests to verify and confirm his knowledge required to work well."                 
         },
         {
             "type": "year",
@@ -59,90 +66,94 @@
         },
         {
             "type": "xp",
-            "date": "avril - juillet 2015",
+            "date": "april - july 2015",
             "company": "Amaris",
-            "location": "Vienne - AUTRICHE",
-            "role": "Développeur .NET MVC"
+            "location": "Vienna - AUTRICHE",
+            "role": ".NET MVC Programmer",
+            "tags": ["C#", "ASP.NET MVC", "Entity Framework", "Visual Studio", "TFS (VSTS)", "Bootstrap", "jQuery"],
+            "description": "Working within the IT Service of Amaris, in Vienna, I help to implement new features for the ERP of the company (made from scratch with .NET technologies)."
         }
     ],
     "projects": [
         {
             "type": "xp",
-            "date": "Automne 2015",
-            "location": "Polytechnique Montréal - CANADA",
-            "company": "Projet de réalité virtuelle",
-            "role": "Réalisation d'une escape room en VR dans un environnement CAVE",
-            "description": "<h1 class='title'> Test </h1><p>Coucou ca va?</p>"
+            "date": "Fall 2015",
+            "location": "Polytechnique Montreal - CANADA",
+            "company": "Virtual Reality Project",
+            "role": "Creation of an escape room game in a CAVE environment",
+            "tags": ["C#","Unity 3D", "Arduino", "Processing", "Open Sound Control", "Oculus SDK"],
+            "description": "In a binomial group, we made an Escape Room game in an immersive environment  CAVE (Cave Automatic Virtual Environment) in the purpose of the Augmented Reality class I followed in Polytechnique Montreal."          
         },
         {
             "type": "xp",
             "date": "2014 - 2015",
             "location": "ECE Paris - FRANCE",
-            "company": "Projet de réalité virtuelle",
+            "company": "Virtual Reality Project",
             "role": "Réalisation d'un prototype de tapis de course couplé à un Oculus RIFT",
-            "description": "<h1 class='title'> Test </h1><p>Coucou ca va?</p>"
+            "tags": ["C++", "Open Scene Graph", "VR Juggler", "Google Sketch Up"],
+            "description": "In charge of a five persons group, we created a virtual reality system made of a treadmill and an Oculus Rift. The user/player put the headset on and evolve by running on the treadmill in a virtual environment. The runner's speed is replicated in the game, and the slopes angles influence automatically the tilt of the readmill.<br/>The project was presented at the Laval Virtual show which occured on April 2015."
         }
     ],
     "formations": [
         {
-            "dates": "Septembre - Décembre 2013",
-            "school": "Concordia University",
-            "location": "Montréal - CANADA",
-            "description": "Premier semestre d'échange dans l'université anglophone Concordia"
+            "dates": "September - December 2015",
+            "school": "Polytechnique",
+            "location": "Montreal - CANADA",
+            "description": "Second exchange semester in Montreal"
         },
         {
-            "dates": "Septembre - Décembre 2015",
-            "school": "Polytechnique",
+            "dates": "September - December 2013",
+            "school": "Concordia University",
             "location": "Montréal - CANADA",
-            "description": "Second semestre d'échange à Montréal"
+            "description": "First exchange semester at the Concordia University of Montreal"
         },
         {
             "dates": "2011 - 2016",
-            "school": "Ecole Centrale d'Electronique",
+            "school": "ECE Paris",
             "location": "Paris - FRANCE",
-            "description": "Cursus d'études en école d'ingénieur. Majeure Systèmes Embarqués"
+            "description": "Student in this Engineering School. Embedded Systems Major"
         }
     ],
     "diplomasList": [
         {
-            "title": "Ingénieur en Systèmes Embarqués",
+            "title": "Embedded Systems Engineer",
             "icon": "fa-graduation-cap"
         },
         {
-            "title": "Permis de conduire B",
+            "title": "Driving License",
             "icon": "fa-car"
         },
         {
-            "title": "Baccalauréat S",
+            "title": "Scientific Baccalaureate",
             "icon": "fa-university"
         }
     ],
     "skillList": [
         {
-            "groupName": "Principales",
+            "groupName": "Main skills",
             "skills": [
                 {
-                    "name": "Programmation Web Front-End",
+                    "name": "Web Front-End Programming",
                     "value": "4",
                     "tags": ["HTML 5", "CSS3", "Javascript ES6", "VueJs", "AngularJs", "JQuery"]
                 },
                 {
-                    "name": "Programmation Web Back-End",
+                    "name": "Web Back-End Programming",
                     "value": "3",
                     "tags": ["PHP", "Symfony", "C#", ".NET MVC", "NodeJs"]
                 },
                 {
-                    "name": "Electronique",
-                    "tags": ["Traitement du signal", "VHDL", "Arduino", "Assembleur"]
+                    "name": "Electronics",
+                    "tags": ["Signal Processing", "VHDL", "Arduino", "ASM"]
                 },
                 {
-                    "name": "Langues",
-                    "tags": ["Français", "Anglais"]
+                    "name": "Languages",
+                    "tags": ["French", "English"]
                 }
             ]
         },
         {
-            "groupName": "Langages de programmation",
+            "groupName": "Programming languages",
             "skills": [
                 {
                     "name": "HTML",
@@ -188,14 +199,14 @@
             ]
         },
         {
-            "groupName": "Langues",
+            "groupName": "Languages",
             "skills": [
                 {
-                    "name": "Français",
+                    "name": "French",
                     "value": 5
                 },
                 {
-                    "name": "Anglais",
+                    "name": "English",
                     "value": 4,
                     "tags": ["Toeic: 800", "IELTS: 6.5"]
                 }
