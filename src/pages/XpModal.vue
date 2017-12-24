@@ -48,6 +48,9 @@ export default {
     width: 960px;
   }
 }
+.is-divider {
+  margin: 1rem 0px;
+}
  .modal-card-title {
    flex-shrink: 1;
  }
