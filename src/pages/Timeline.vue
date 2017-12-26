@@ -15,7 +15,10 @@
       <li v-else :key="'xp' + index" class="timeline-item is-primary clickable" @click="$emit('xpClicked', xp)">
         <div class="timeline-marker is-primary"></div>
         <div class="timeline-content">
-          <p class="heading company is-size-6">{{xp.company}} - {{xp.location}}</p>
+          <div class="timeline-content__title">
+            <i class="icon fa fa-lg fa-external-link"></i> 
+            <p class="heading company is-size-6">{{xp.company}} - {{xp.location}}</p>
+          </div>
           <p class="heading dates">{{xp.date}}</p>
           <p class="description">{{xp.role}}</p>
         </div>
@@ -27,7 +30,10 @@
     <li v-for="(xp, index) in $t('projects')" :key="'project' + index" class="timeline-item is-primary clickable" @click="$emit('xpClicked', xp)">
       <div class="timeline-marker is-primary"></div>
       <div class="timeline-content">
-        <p class="heading company is-size-6">{{xp.company}} - {{xp.location}}</p>
+        <div class="timeline-content__title">
+            <i class="icon fa fa-lg fa-external-link"></i> 
+            <p class="heading company is-size-6">{{xp.company}} - {{xp.location}}</p>
+          </div>
         <p class="heading dates">{{xp.date}}</p>
         <p class="description">{{xp.role}}</p>
       </div>
@@ -43,10 +49,18 @@ export default {
 @import '../styles/colors.scss';
 
 li.timeline-item.clickable{
-cursor: pointer;
-  &:hover {
-    background-color:lighten($cyan, 30);
-    color: $black;
+  position: relative;
+  cursor: pointer;
+    &:hover {
+      background-color:lighten($cyan, 30);
+      color: $black;
+    }
+}
+.timeline-content__title {
+  display: flex;
+  align-items: center;
+  i.icon {
+    margin-right: 0.5rem;
   }
 }
 </style>
