@@ -23,6 +23,8 @@ $info: $cyan;
 $border: $yellow;
 $text: $black;
 
+$progress-bar-background-color: $yellow-light;
+
 @import "~bulma/bulma.sass";
 @import "~bulma-timeline/timeline.sass";
 @import "~bulma-divider/divider.sass";

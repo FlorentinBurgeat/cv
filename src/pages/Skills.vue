@@ -13,16 +13,17 @@
     <div class="skill-group">
 
       <div v-for="(skill, index) in $t(`skillList[${activeIndex}].skills`)" :key="index" class="skill">
-        <div class="field is-horizontal">
+        <div class="field">
           <div class="field-label">
             <span class="label">{{skill.name}}:</span>
+            <p class="control has-text-primary stars" v-if="skill.value !== undefined">
+              <i class="fa fa-2x field__star" v-for="(star, starId) in getStars(skill.value)" :class="star" :key="starId"></i>
+            </p>
           </div>
           <div class="field-body">
             <div class="field">
-              <!-- <p class="control has-text-warning" v-if="skill.value !== undefined">
-                <i class="fa" v-for="(star, starId) in getStars(skill.value)" :class="star" :key="starId"></i>
-              </p> -->
-              <progress v-if="skill.value !== undefined" class="progress is-primary" :value="skill.value" :max="maxStars"></progress>
+              
+              <!-- <progress v-if="skill.value !== undefined" class="progress is-primary" :value="skill.value" :max="maxStars"></progress> -->
               <p class="tags" v-if="skill.tags">
                 <span class="tag is-warning is-medium" v-for="(tag, tagId) in skill.tags" :key="tagId">{{tag}}</span>
               </p>
@@ -68,8 +69,22 @@ export default {
   .progress {
     width: 50%;
   }
-  .field.is-horizontal {
-    margin-bottom: 2em;
+  .field {
+    margin-bottom: 1rem;
+    .field-label {
+      display: flex;
+      width: 100%;
+      margin-bottom: 1rem;
+      .label {
+        flex: 0 1 250px;
+        margin-right: 1rem;
+        text-align: left;
+      }
+      .stars { display: flex;}
+      .field__star {
+        margin: -5px 5px 5px 0px;
+      }
+    }
   }
 }
 
