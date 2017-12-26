@@ -134,12 +134,12 @@
             "skills": [
                 {
                     "name": "Programmation Web Front-End",
-                    "value": "4",
+                    "value": 3.5,
                     "tags": ["HTML 5", "CSS3", "Javascript ES6", "VueJs", "AngularJs", "JQuery"]
                 },
                 {
                     "name": "Programmation Web Back-End",
-                    "value": "3",
+                    "value": 2.5,
                     "tags": ["PHP", "Symfony", "C#", ".NET MVC", "NodeJs"]
                 },
                 {
@@ -161,15 +161,19 @@
                 },
                 {
                     "name": "JavaScript",
-                    "value": 4.5
+                    "value": 4
                 },
                 {
                     "name": "CSS - Sass",
-                    "value": 4.5
+                    "value": 3.5
                 },
                 {
                     "name": "PHP",
-                    "value": 4
+                    "value": 3
+                },
+                {
+                    "name": "C#",
+                    "value": 2.5
                 }
             ]
         },
@@ -185,16 +189,12 @@
                     "value": 4
                 },
                 {
-                    "name": "jQuery",
-                    "value": "3.5"
-                },
-                {
                     "name": "Symfony",
-                    "value": 3.5
+                    "value": 3
                 },
                 {
                     "name": ".NET MVC",
-                    "value": 3
+                    "value": 2.5
                 }
             ]
         },
