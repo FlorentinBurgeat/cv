@@ -16,12 +16,8 @@
           </p>
           <div class="is-divider"></div>
           </template>
-        <div v-html="experience.description"></div>
+        <p class="description" v-for="(paragraphe, pIndex) in descriptionParagraphe" v-html="paragraphe" :key="xp + pIndex"></p>
       </section>
-      <!-- <footer class="modal-card-foot">
-        <button class="button is-success">Save changes</button>
-        <button class="button">Cancel</button>
-      </footer> -->
     </div>
   </div>
 </template>
@@ -37,6 +33,11 @@ export default {
     value: {
       type: Boolean,
       required: true
+    }
+  },
+  computed: {
+    descriptionParagraphe () {
+      return typeof this.experience.description === 'string' ? [this.experience.description] : this.experience.description
     }
   }
 }
@@ -59,5 +60,8 @@ export default {
    word-wrap: normal;
    word-break: keep-all;
    white-space: nowrap;
+ }
+ p.description {
+   text-indent: 2rem;
  }
 </style>
