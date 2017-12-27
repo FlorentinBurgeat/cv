@@ -6,9 +6,21 @@
       <div class="tile is-vertical is-parent">
         
         <div class="tile is-parent">
-          <div class="tile is-child box">
-            <h1 class="title">Florentin BURGEAT</h1>
-            <h2 class="subtitle">Curriculum Vitae</h2>
+          <div class="tile box is-parent">
+            <div class="tile is-child">
+              <div class="columns-info">
+                <div class="columns-info__column">
+                  <h1 class="title">Florentin BURGEAT</h1>
+                  <h2 class="subtitle">Curriculum Vitae</h2>
+                </div>
+                <div class="columns-info__column">
+                  <a href="mailto:florentin.burgeat@orange.fr" class="mail is-flex"><i class="icon fa fa-envelope-o"></i><i>florentin.burgeat@orange.fr</i></a>
+                  <p class="phone is-flex"><i class="icon fa fa-phone"></i><i>+33 6 11 80 74 86</i></p>
+                  <a href="https://www.linkedin.com/in/florentin-burgeat" class="linkedin is-flex"><i class="icon fa fa-linkedin-square"></i><i>LinkedIn</i></a>
+                </div>
+              </div> 
+            </div>
+            
           </div>
         </div>
 
@@ -89,6 +101,21 @@ export default {
       color: $white;
     }
   }
+}
+.columns-info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  .columns-info__column {
+    flex: 0 0 auto;
+    a {
+      color: $black;
+      &:hover {
+        color: $cyan;
+      }
+    }
+  }
+
 }
 .main-columns {
   flex-flow: row wrap;
