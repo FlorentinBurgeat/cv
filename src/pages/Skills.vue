@@ -71,10 +71,12 @@ export default {
   }
   .field {
     margin-bottom: 1rem;
+    .filed-body {
+      margin-top: 1rem;
+    }
     .field-label {
       display: flex;
       width: 100%;
-      margin-bottom: 1rem;
       .label {
         flex: 0 1 250px;
         margin-right: 1rem;
