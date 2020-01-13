@@ -6,7 +6,9 @@
     "endOfStudies": "End of studies",
     "diplomas": "Diplomas",
     "skills": "Skills",
+    "accroche": "Engineer and full-stack programmer, I'm looking to work in Taiwan, starting this summer 2020",
     "hobbies": "Hobbies",
+    "linkedIn": "https://www.linkedin.com/in/florentin-burgeat?locale=en_US",
     "switchLanguage": {
         "name": "Français",
         "locale": "fr"
@@ -22,8 +24,8 @@
             "location": "Lyon - FRANCE",
             "company": "ocea smart building",
             "role": "Front-End VueJS Programmer",
-            "tags": ["Javascript ES6", "VueJs", "Bulma", "UX/UI", "Webpack", "HTML", "CSS"],
-            "description": "Front-End programmer in a four person team. I worked on the creation of intern management tools of the company in order to make a complete overhaul of the company's Information system."
+            "tags": ["Javascript ES6", "VueJs", "Bulma", "UX/UI", "Webpack", "HTML", "CSS", "C#", ".NET", "CQRS Event Sourcing", "SCRUM"],
+            "description": "As a consultant for SOLUTEC, I've participated in the creation and the full-stack development of intern managing tools for the company, in order to redesign completely the Information system.<br/> Mostly working in the front-end team, I've been joining the back-end team for a year during this mission.<br/>I'm also the Scrum Master of several teams of five people each."
         },
         {
             "type": "xp",
@@ -71,7 +73,7 @@
             "location": "Vienna - AUTRICHE",
             "role": ".NET MVC Programmer",
             "tags": ["C#", "ASP.NET MVC", "Entity Framework", "Visual Studio", "TFS (VSTS)", "Bootstrap", "jQuery"],
-            "description": "Working within the IT Service of Amaris, in Vienna, I help to implement new features for the ERP of the company (made from scratch with .NET technologies)."
+            "description": "Working within the IT Service of Amaris, in Vienna, I helped to implement new features on the ERP of the company (made from scratch with .NET framework and jQuery)."
         }
     ],
     "projects": [
@@ -134,12 +136,12 @@
             "skills": [
                 {
                     "name": "Web Front-End Programming",
-                    "value": 3.5,
+                    "value": 4,
                     "tags": ["HTML 5", "CSS3", "Javascript ES6", "VueJs", "AngularJs", "JQuery"]
                 },
                 {
                     "name": "Web Back-End Programming",
-                    "value": 2.5,
+                    "value": 3,
                     "tags": ["PHP", "Symfony", "C#", ".NET MVC", "NodeJs"]
                 },
                 {
@@ -165,14 +167,14 @@
                 },
                 {
                     "name": "CSS - Sass",
-                    "value": 3.5
-                },
-                {
-                    "name": "PHP",
-                    "value": 3
+                    "value": 4
                 },
                 {
                     "name": "C#",
+                    "value": 3
+                },
+                {
+                    "name": "PHP",
                     "value": 2.5
                 }
             ]
@@ -182,18 +184,18 @@
             "skills": [
                 {
                     "name": "VueJs",
-                    "value": 4
+                    "value": 4.5
                 },
                 {
-                    "name": "AngularJs",
-                    "value": 4
-                },
-                {
-                    "name": "Symfony",
+                    "name": "Angular",
                     "value": 3
                 },
                 {
-                    "name": ".NET MVC",
+                    "name": ".NET",
+                    "value": 3
+                },
+                {
+                    "name": "Symfony",
                     "value": 2.5
                 }
             ]
@@ -211,6 +213,30 @@
                     "tags": ["Toeic: 800", "IELTS: 6.5"]
                 }
             ]
+        },
+        {
+            "groupName": "Others",
+            "skills": [
+                {
+                    "name": "Agility / Scrum",
+                    "value": 4
+                }
+            ]
+        } 
+    ],
+    "hobbiesList": [
+        {
+            "title": "Vice - General Secretary of Game Dev Party",
+            "year": "2019-2020",
+            "description": "Association of video game makers. We organize several game jams and meetups."
+        },
+        {
+            "title": "Music",
+            "description": "Piano, Guitar"
+        },
+        {
+            "title": "Sport",
+            "description": "Tennis"
         }
     ]
 }

@@ -7,6 +7,8 @@
     "diplomas": "Diplômes",
     "skills": "Compétences",
     "hobbies": "Centre d'intérêts",
+    "accroche": "Ingénieur et développeur web full-stack, je recherche actuellement à m'expatrier à Taiwan à partir de l'été 2020.",
+    "linkedIn": "https://www.linkedin.com/in/florentin-burgeat",
     "switchLanguage": {
         "name": "English",
         "locale": "en"
@@ -21,9 +23,9 @@
             "date": "aôut 2017 - aujourd'hui",
             "location": "Lyon - FRANCE",
             "company": "ocea smart building",
-            "role": "Développeur Front-End VueJS",
-            "tags": ["Javascript ES6", "VueJs", "Bulma", "UX/UI", "Webpack", "HTML", "CSS"],
-            "description": "Développeur Front-End dans une équipe de quatre personnes. Participation à la création d'outils de gestion interne de l'entreprise dans une optique de refonte complète du SI Interne."
+            "role": "Ingénieur développeur Full-stack",
+            "tags": ["Javascript ES6", "VueJs", "Bulma", "UX/UI", "Webpack", "HTML", "CSS", "C#", ".NET", "CQRS Event Sourcing", "SCRUM"],
+            "description": "En tant que consultant pour SOLUTEC, j'ai participé à la création et au développement full-stack d'outils de gestion interne de l'entreprise dans une optique de refonte complète du SI Interne.<br/>Majoritairement dans l'équipe front-end, j'ai rejoint l'équipe back durant un an au cours de cette mission.<br/>J'ai également été Scrum Master de plusieurs équipes d'environ 5 personnes."
         },
         {
             "type": "xp",
@@ -45,7 +47,7 @@
             "company": "enedis",
             "role": "Développeur Full Stack: PHP avec Symfony 2 et AngularJs",
             "tags": ["JavaScript ES5", "AngularJs", "PHP", "Symfony 2", "SQL", "PostGreSQL", "Git"],
-            "description": "Réalisation d’un Portail Web réunissant un outil de monitoring et un module de E-Learning. L’outil de monitoring interprète des fichiers de configuration pour constituer des tableaux regroupant de nombreux graphiques donnant des rapports d’activités sur les applications développées. Le module E-Learning permet de suivre des cours et d’effectuer des tests pour valider ses connaissances."
+            "description": "Suite de mon projet de stage de fin d'études. J'ai alors rejoint les locaux du client afin de finir et mettre en production le projet que nous avions commencé en binôme."
         },
         {
             "type": "company",
@@ -71,7 +73,7 @@
             "location": "Vienne - AUTRICHE",
             "role": "Développeur .NET MVC",
             "tags": ["C#", "ASP.NET MVC", "Entity Framework", "Visual Studio", "TFS (VSTS)", "Bootstrap", "jQuery"],
-            "description": "Au sein de la DSI d’Amaris située à Vienne, en Autriche, implémentation de nouvelles fonctionnalités pour l’ERP de l’entreprise (site entièrement conçu par l’entreprise en .NET)."
+            "description": "Au sein de la DSI d’Amaris située à Vienne, en Autriche, implémentation de nouvelles fonctionnalités pour l’ERP de l’entreprise (site entièrement conçu par l’entreprise en .NET et jQuery)."
         }
     ],
     "projects": [
@@ -134,12 +136,12 @@
             "skills": [
                 {
                     "name": "Programmation Web Front-End",
-                    "value": 3.5,
+                    "value": 4,
                     "tags": ["HTML 5", "CSS3", "Javascript ES6", "VueJs", "AngularJs", "JQuery"]
                 },
                 {
                     "name": "Programmation Web Back-End",
-                    "value": 2.5,
+                    "value": 3,
                     "tags": ["PHP", "Symfony", "C#", ".NET MVC", "NodeJs"]
                 },
                 {
@@ -165,15 +167,15 @@
                 },
                 {
                     "name": "CSS - Sass",
-                    "value": 3.5
-                },
-                {
-                    "name": "PHP",
-                    "value": 3
+                    "value": 4
                 },
                 {
                     "name": "C#",
-                    "value": 2.5
+                    "value": 3
+                },
+                {
+                    "name": "PHP",
+                    "value": "2.5"
                 }
             ]
         },
@@ -182,18 +184,18 @@
             "skills": [
                 {
                     "name": "VueJs",
-                    "value": 4
+                    "value": 4.5
                 },
                 {
-                    "name": "AngularJs",
-                    "value": 4
-                },
-                {
-                    "name": "Symfony",
+                    "name": "Angular",
                     "value": 3
                 },
                 {
-                    "name": ".NET MVC",
+                    "name": ".NET",
+                    "value": 3
+                },
+                {
+                    "name": "Symfony",
                     "value": 2.5
                 }
             ]
@@ -211,6 +213,30 @@
                     "tags": ["Toeic: 800", "IELTS: 6.5"]
                 }
             ]
+        },
+        {
+            "groupName": "Autres",
+            "skills": [
+                {
+                    "name": "Agilité / Scrum",
+                    "value": 4
+                }
+            ]
         } 
+    ],
+    "hobbiesList": [
+        {
+            "title": "Vice secrétaire générale de l'association Game Dev Party",
+            "year": "2019-2020",
+            "description": "Association d'amateurs et concepteurs de jeux-vidéo. Nous organisons des meet-ups ainsi que plusieurs game jams dans l'année."
+        },
+        {
+            "title": "Musique",
+            "description": "Piano, Guitare"
+        },
+        {
+            "title": "Sport",
+            "description": "Tennis"
+        }
     ]
 }

@@ -12,11 +12,12 @@
                 <div class="columns-info__column">
                   <h1 class="title">Florentin BURGEAT</h1>
                   <h2 class="subtitle">Curriculum Vitae</h2>
+                  <p>{{$t('accroche')}}</p>
                 </div>
                 <div class="columns-info__column">
                   <a href="mailto:florentin.burgeat@orange.fr" class="mail is-flex"><i class="icon fa fa-envelope-o"></i><i>florentin.burgeat@orange.fr</i></a>
                   <p class="phone is-flex"><i class="icon fa fa-phone"></i><i>+33 6 11 80 74 86</i></p>
-                  <a href="https://www.linkedin.com/in/florentin-burgeat" class="linkedin is-flex"><i class="icon fa fa-linkedin-square"></i><i>LinkedIn</i></a>
+                  <a :href="$t('linkedIn')" class="linkedin is-flex"><i class="icon fa fa-linkedin-square"></i><i>LinkedIn</i></a>
                 </div>
               </div>
             </div>
@@ -56,10 +57,10 @@
 
                 <div class="tile is-child box is-vertical">
                   <h1 class="title">{{$t('hobbies')}}</h1>
-                  <div class="hobbie">
-                    <h2 class="title is-size-5">Secrétaire Générale de l'association JBTV</h2>
-                    <h3 class="subtitle is-size-6">2013-2014</h3>
-                    <p>Assoctiation Photo et Vidéo de l'ECE Paris. Production de courts-métrages et organisation de cours de photographie, montage, etc.</p>
+                  <div class="hobbie" v-for="(hobbie, index) in $t('hobbiesList')" :key="index">
+                    <h2 class="title is-size-5">{{hobbie.title}}</h2>
+                    <h3 class="subtitle is-size-6">{{hobbie.year}}</h3>
+                    <p>{{hobbie.description}}</p>
                   </div>
                 </div>
 
@@ -103,12 +104,14 @@
 <style lang="scss" scoped>
   @import '../styles/colors.scss';
   .box.is-child {
-    // border: 5px solid $yellow;
     background-color: $white;
     &.diploma {
       background-color: $blue;
       &, .subtitle {
         color: $white;
+      }
+      .icon {
+        margin-right: 5px;
       }
     }
   }
@@ -147,6 +150,9 @@
     .skills {
       // border: 2px solid #A8D4AD;
     }
+  }
+  .hobbie:not(:first-child) {
+    margin-top: 20px;
   }
 </style>
 
