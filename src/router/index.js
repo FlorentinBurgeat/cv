@@ -1,15 +1,19 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 import HomePage from '../pages/HomePage'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HomePage',
-      component: HomePage
-    }
-  ]
+const routes = [
+  {
+    path: '/',
+    name: 'HomePage',
+    component: HomePage
+  }
+]
+
+const router = new VueRouter({
+  routes
 })
+
+export default router

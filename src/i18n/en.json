@@ -23,7 +23,7 @@
             "company": "ocea smart building",
             "role": "Front-End VueJS Programmer",
             "tags": ["Javascript ES6", "VueJs", "Bulma", "UX/UI", "Webpack", "HTML", "CSS"],
-            "description": "Front-End programmer in a four person team. I worked on the creation of intern management tools of the companyin order to make a complete overhaul of the company's Information system."
+            "description": "Front-End programmer in a four person team. I worked on the creation of intern management tools of the company in order to make a complete overhaul of the company's Information system."
         },
         {
             "type": "xp",
@@ -58,7 +58,7 @@
             "location": "Lyon - FRANCE",
             "role": "Full Stack programmer using Symfony 2 and AngularJs",
             "tags": ["JavaScript ES5", "AngularJs", "PHP", "Symfony 2", "SQL", "PostGreSQL", "Git"],
-            "description": "The goal of this internship project was to create a web portal, comprised of a monitoring tool and an e-learning tool.<br/>The monitoring tool transforms configuration files into tables gathering multiples graphs in order to show activity reports on the work in progress in the company.<br/>The E-Learning Module allows the user to follow lessons or tutorials and answer some tests to verify and confirm his knowledge required to work well."                 
+            "description": "The goal of this internship project was to create a web portal, comprised of a monitoring tool and an e-learning tool.<br/>The monitoring tool transforms configuration files into tables gathering multiples graphs in order to show activity reports on the work in progress in the company.<br/>The E-Learning Module allows the user to follow lessons or tutorials and answer some tests to verify and confirm his knowledge required to work well."
         },
         {
             "type": "year",
@@ -82,14 +82,14 @@
             "company": "Virtual Reality Project",
             "role": "Creation of an escape room game in a CAVE environment",
             "tags": ["C#","Unity 3D", "Arduino", "Processing", "Open Sound Control", "Oculus SDK"],
-            "description": "In a binomial group, we made an Escape Room game in an immersive environment  CAVE (Cave Automatic Virtual Environment) in the purpose of the Augmented Reality class I followed in Polytechnique Montreal."          
+            "description": "In a binomial group, we made an Escape Room game in an immersive environment  CAVE (Cave Automatic Virtual Environment) in the purpose of the Augmented Reality class I followed in Polytechnique Montreal."
         },
         {
             "type": "xp",
             "date": "2014 - 2015",
             "location": "ECE Paris - FRANCE",
             "company": "Virtual Reality Project",
-            "role": "Réalisation d'un prototype de tapis de course couplé à un Oculus RIFT",
+            "role": "Creation of a prototype of a treadmill linked to an Oculus Rift",
             "tags": ["C++", "Open Scene Graph", "VR Juggler", "Google Sketch Up"],
             "description": "In charge of a five persons group, we created a virtual reality system made of a treadmill and an Oculus Rift. The user/player put the headset on and evolve by running on the treadmill in a virtual environment. The runner's speed is replicated in the game, and the slopes angles influence automatically the tilt of the readmill.<br/>The project was presented at the Laval Virtual show which occured on April 2015."
         }
@@ -211,6 +211,6 @@
                     "tags": ["Toeic: 800", "IELTS: 6.5"]
                 }
             ]
-        } 
+        }
     ]
 }

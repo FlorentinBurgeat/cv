@@ -4,7 +4,7 @@
     <nav-bar></nav-bar>
     <div class="tile is-ancestor is-desktop">
       <div class="tile is-vertical is-parent">
-        
+
         <div class="tile is-parent">
           <div class="tile box is-parent">
             <div class="tile is-child">
@@ -18,9 +18,9 @@
                   <p class="phone is-flex"><i class="icon fa fa-phone"></i><i>+33 6 11 80 74 86</i></p>
                   <a href="https://www.linkedin.com/in/florentin-burgeat" class="linkedin is-flex"><i class="icon fa fa-linkedin-square"></i><i>LinkedIn</i></a>
                 </div>
-              </div> 
+              </div>
             </div>
-            
+
           </div>
         </div>
 
@@ -42,7 +42,8 @@
                   <Formation/>
                 </div>
               </div>
-              <div class="tile is-parent">
+              <div class="tile is-parent is-vertical">
+
                 <div class="tile is-child box is-vertical">
                   <h1 class="title">{{$t('diplomas')}}</h1>
                   <div class="tile is-parent" v-for="(diploma, index) in $t('diplomasList')" :key="index">
@@ -52,6 +53,16 @@
                     </div>
                   </div>
                 </div>
+
+                <div class="tile is-child box is-vertical">
+                  <h1 class="title">{{$t('hobbies')}}</h1>
+                  <div class="hobbie">
+                    <h2 class="title is-size-5">Secrétaire Générale de l'association JBTV</h2>
+                    <h3 class="subtitle is-size-6">2013-2014</h3>
+                    <p>Assoctiation Photo et Vidéo de l'ECE Paris. Production de courts-métrages et organisation de cours de photographie, montage, etc.</p>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -59,84 +70,83 @@
       </div>
     </div>
   </div>
-</div>
 </template>
 <script>
-import Timeline from './Timeline'
-import Formation from './Formation'
-import Skills from './Skills'
-import NavBar from './NavBar'
-import XpModal from './XpModal'
-export default {
-  name: 'HomePage',
-  components: {
-    Timeline,
-    Formation,
-    Skills,
-    NavBar,
-    XpModal
-  },
-  data () {
-    return {
-      selectedExperience: {},
-      isModalOpen: false
-    }
-  },
-  methods: {
-    openXpModal (xp) {
-      this.selectedExperience = xp
-      this.isModalOpen = true
-    }
-  }
-}
-</script>
-<style lang="scss" scoped>
-@import '../styles/colors.scss';
-.box.is-child {
-  // border: 5px solid $yellow;
-  background-color: $white;
-  &.diploma {
-    background-color: $blue;
-    &, .subtitle {
-      color: $white;
-    }
-  }
-}
-.columns-info {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  .columns-info__column {
-    flex: 0 0 auto;
-    a {
-      color: $black;
-      &:hover {
-        color: $cyan;
+  import Timeline from './Timeline'
+  import Formation from './Formation'
+  import Skills from './Skills'
+  import NavBar from './NavBar'
+  import XpModal from './XpModal'
+  export default {
+    name: 'HomePage',
+    components: {
+      Timeline,
+      Formation,
+      Skills,
+      NavBar,
+      XpModal
+    },
+    data () {
+      return {
+        selectedExperience: {},
+        isModalOpen: false
+      }
+    },
+    methods: {
+      openXpModal (xp) {
+        this.selectedExperience = xp
+        this.isModalOpen = true
       }
     }
   }
+</script>
+<style lang="scss" scoped>
+  @import '../styles/colors.scss';
+  .box.is-child {
+    // border: 5px solid $yellow;
+    background-color: $white;
+    &.diploma {
+      background-color: $blue;
+      &, .subtitle {
+        color: $white;
+      }
+    }
+  }
+  .columns-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .columns-info__column {
+      flex: 0 0 auto;
+      a {
+        color: $black;
+        &:hover {
+          color: $cyan;
+        }
+      }
+    }
 
-}
-.main-columns {
-  flex-flow: row wrap;
-  .timeline {
-    flex: 1 0 420px;
   }
-  .skill-column {
-    flex: 2 0 780px;
+  .main-columns {
+    flex-flow: row wrap;
+    .timeline {
+      flex: 1 0 420px;
+    }
+    .skill-column {
+      flex: 2 0 780px;
+    }
   }
-}
-.tile.is-ancestor {
-  margin-top: 0px;
-  .timeline__box.tile.box {
-    // flex-shrink: 0;
-    // border: 2px solid #adf;
-    padding-left: 0px;
-    padding-right: 0px;
+  .tile.is-ancestor {
+    margin-top: 55px;
+    .timeline__box.tile.box {
+      // flex-shrink: 0;
+      // border: 2px solid #adf;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .skills {
+      // border: 2px solid #A8D4AD;
+    }
   }
-  .skills {
-    // border: 2px solid #A8D4AD;
-  }
-}
 </style>
 
