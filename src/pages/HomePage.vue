@@ -24,7 +24,6 @@
 
           </div>
         </div>
-
         <div class="tile main-columns">
           <div class="tile is-parent timeline">
             <div class="tile is-child box timeline__box">
