@@ -114,6 +114,11 @@
       }
     }
   }
+  .hobbie .subtitle{
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 0.9em !important;
+  }
   .columns-info {
     display: flex;
     flex-flow: row wrap;
@@ -141,13 +146,9 @@
   .tile.is-ancestor {
     margin-top: 55px;
     .timeline__box.tile.box {
-      // flex-shrink: 0;
       // border: 2px solid #adf;
       padding-left: 0px;
       padding-right: 0px;
-    }
-    .skills {
-      // border: 2px solid #A8D4AD;
     }
   }
   .hobbie:not(:first-child) {

@@ -27,17 +27,22 @@
     <li class="timeline-header" >
       <span class="tag is-large is-primary">{{$t('studentProjects')}}</span>
     </li>
-    <li v-for="(xp, index) in $t('projects')" :key="'project' + index" class="timeline-item is-primary clickable" @click="$emit('xpClicked', xp)">
-      <div class="timeline-marker is-primary"></div>
-      <div class="timeline-content">
-        <div class="timeline-content__title">
-            <i class="icon fa fa-lg fa-external-link"></i> 
-            <p class="heading company is-size-6">{{xp.company}} - {{xp.location}}</p>
-          </div>
-        <p class="heading dates">{{xp.date}}</p>
-        <p class="description">{{xp.role}}</p>
+    <template v-for="(xp, index) in $t('projects')">
+      <div v-if="xp.type === 'year'" class="timeline-header is-small" :key="index">
+        <span class="tag is-small is-primary">{{xp.val}}</span>
       </div>
-    </li>
+      <li v-else :key="'project' + index" class="timeline-item is-primary clickable" @click="$emit('xpClicked', xp)">
+        <div class="timeline-marker is-primary"></div>
+        <div class="timeline-content">
+          <div class="timeline-content__title">
+              <i class="icon fa fa-lg fa-external-link"></i> 
+              <p class="heading company is-size-6">{{xp.company}} - {{xp.location}}</p>
+            </div>
+          <p class="heading dates">{{xp.date}}</p>
+          <p class="description">{{xp.role}}</p>
+        </div>
+      </li>
+    </template>
   </ul>
 </template>
 <script>

@@ -6,7 +6,7 @@
     "endOfStudies": "End of studies",
     "diplomas": "Diplomas",
     "skills": "Skills",
-    "accroche": "Engineer and full-stack programmer, I'm looking to work in Taiwan, starting this summer 2020",
+    "accroche": "Engineer full-stack programmer, and more recently Product Owner, I'm always looking to be more relevant on the work I do, and improve my knowledge to be able to teach them.",
     "hobbies": "Hobbies",
     "linkedIn": "https://www.linkedin.com/in/florentin-burgeat?locale=en_US",
     "switchLanguage": {
@@ -20,11 +20,24 @@
         },
         {
             "type": "xp",
-            "date": "August 2017 - Today",
+            "date": "july 2020 - today",
+            "location": "Lyon - FRANCE",
+            "company": "Enedis",
+            "role": "Functionnal administrator",
+            "tags": ["Product Owner", "Scrum master", "Business analysis", "Production", "Mockups", "QA"],
+            "description": "As a consultant for SOLUTEC, I'm in charge of a 4 dvelopers team. I have the roles of Product Owner, Scrum Master, QA Test writer and production analyst. As a PO and QA Tester, I must analyse the functionnal needs and transcript it into User Stories, follow their developments, prepare the main test scenarios, and validate their proper behavior. For analysing the production environment, main key users report anomalies. I then search for their causes and even prepare a bug fix or operate a correction of the datas. I also participate in the Agile comunity, where we exchange around the retrospectives we animate in our respective teams."
+        },
+        {
+            "type": "year",
+            "val":"2020"
+        },
+        {
+            "type": "xp",
+            "date": "august 2017 - may 2020",
             "location": "Lyon - FRANCE",
             "company": "ocea smart building",
             "role": "Front-End VueJS Programmer",
-            "tags": ["Javascript ES6", "VueJs", "Bulma", "UX/UI", "Webpack", "HTML", "CSS", "C#", ".NET", "CQRS Event Sourcing", "SCRUM"],
+            "tags": ["Javascript ES6", "TypeScript", "VueJs", "Bulma", "UX/UI", "Webpack", "HTML", "CSS", "C#", ".NET", "CQRS Event Sourcing", "SCRUM"],
             "description": "As a consultant for SOLUTEC, I've participated in the creation and the full-stack development of intern managing tools for the company, in order to redesign completely the Information system.<br/> Mostly working in the front-end team, I've been joining the back-end team for a year during this mission.<br/>I'm also the Scrum Master of several teams of five people each."
         },
         {
@@ -38,7 +51,7 @@
         },
         {
             "type": "year",
-            "val": "2016"
+            "val": "2017"
         },
         {
             "type": "xp",
@@ -64,7 +77,7 @@
         },
         {
             "type": "year",
-            "val": "2015"
+            "val": "2016"
         },
         {
             "type": "xp",
@@ -87,6 +100,10 @@
             "description": "In a binomial group, we made an Escape Room game in an immersive environment  CAVE (Cave Automatic Virtual Environment) in the purpose of the Augmented Reality class I followed in Polytechnique Montreal."
         },
         {
+            "type": "year",
+            "val":"2015"
+        },
+        {
             "type": "xp",
             "date": "2014 - 2015",
             "location": "ECE Paris - FRANCE",
@@ -94,6 +111,10 @@
             "role": "Creation of a prototype of a treadmill linked to an Oculus Rift",
             "tags": ["C++", "Open Scene Graph", "VR Juggler", "Google Sketch Up"],
             "description": "In charge of a five persons group, we created a virtual reality system made of a treadmill and an Oculus Rift. The user/player put the headset on and evolve by running on the treadmill in a virtual environment. The runner's speed is replicated in the game, and the slopes angles influence automatically the tilt of the readmill.<br/>The project was presented at the Laval Virtual show which occured on April 2015."
+        },
+        {
+            "type": "year",
+            "val":"2014"
         }
     ],
     "formations": [
@@ -137,12 +158,17 @@
                 {
                     "name": "Web Front-End Programming",
                     "value": 4,
-                    "tags": ["HTML 5", "CSS3", "Javascript ES6", "VueJs", "AngularJs", "JQuery"]
+                    "tags": ["HTML 5", "CSS3", "TypeScript", "Javascript ES6", "VueJs", "AngularJs", "JQuery"]
                 },
                 {
                     "name": "Web Back-End Programming",
                     "value": 3,
                     "tags": ["PHP", "Symfony", "C#", ".NET MVC", "NodeJs"]
+                },
+                {
+                    "name": "Project Management",
+                    "value": 3,
+                    "tags": ["Produc Owner", "Scrum Master", "Miro", "Jira", "Azure Boards", "Confluence"]
                 },
                 {
                     "name": "Electronics",
@@ -166,6 +192,10 @@
                     "value": 4
                 },
                 {
+                    "name": "TypeScript",
+                    "value": 5
+                },
+                {
                     "name": "CSS - Sass",
                     "value": 4
                 },
@@ -183,7 +213,7 @@
             "groupName": "Frameworks",
             "skills": [
                 {
-                    "name": "VueJs",
+                    "name": "Vue 2",
                     "value": 4.5
                 },
                 {
@@ -220,15 +250,24 @@
                 {
                     "name": "Agility / Scrum",
                     "value": 4
+                },
+                {
+                    "name": "Business analysis",
+                    "value": 3
                 }
             ]
         } 
     ],
     "hobbiesList": [
         {
-            "title": "Vice - General Secretary of Game Dev Party",
-            "year": "2019-2020",
-            "description": "Association of video game makers. We organize several game jams and meetups."
+            "title": "Treasurer of Game Dev Party association",
+            "year": "2019-2021",
+            "description": "Association of video game makers. We organize several game jams and meetups annually. We're also recording a podcast about the association and game design."
+        },
+        {
+            "title": "Blog",
+            "year": "2020 - 2021",
+            "description": "Maintaining a blog and writing articles on Video Games and its industry."
         },
         {
             "title": "Music",
